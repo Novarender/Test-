@@ -10,7 +10,7 @@ rCC.givesLivesAt = 100 --Coin value to get another life at. Resets coin count wh
 rCC.capCoins = false   --Caps coins at this value. Set to false to disable. Can override givesLivesAt; not necessary if givesLivesAt is set.
 --Note: These options only affect coins or lives granted by this script itself. Supernova Services and co. will not be held liable for any coins or lives granted using a third party source.
 
-rCC.coin = table.map{10, 33, 88, 103, 138, 152, 251, 252, 253, 258, 274, 310, 378} --All coins that can be collected by this script. I didn't include bonus items like Cherries or Minigame Coins.
+rCC.coin = table.map{10, 33, 88, 103, 138, 152, 251, 252, 253, 258, 274, 310, 378, 411} --All coins that can be collected by this script. I didn't include bonus items like Cherries or Berries.
 rCC.blueCoin  = table.map{252, 258}
 rCC.redCoin   = table.map{253}  --The kind that gives 20 coins
 rCC.rupee     = table.map{251, 252, 253}
